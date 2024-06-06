@@ -4,7 +4,8 @@
 sudo apt update -y 
 
 # Install XFCE4, XRDP, and UFW
-sudo apt install xfce4 xrdp ufw -y
+sudo apt install xfce4 -y
+sudo apt install xrdp ufw -y
 
 # Enable and start XRDP service
 sudo systemctl enable xrdp.service
